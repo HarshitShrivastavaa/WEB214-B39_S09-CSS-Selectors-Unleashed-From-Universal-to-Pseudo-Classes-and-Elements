@@ -1,0 +1,49 @@
+/* Basic styling for the product container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Styling individual products */
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  color: #000;
+}
+
+p {
+  font-size: 18px;
+  color: #000;
+}
+
+/* Styling discounts */
+.discount {
+  color: red;
+  font-size: 14px;
+}
+
+/* Styling for prices */
+p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  background-color: #f50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f30;
+}
